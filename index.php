@@ -25,8 +25,8 @@ if (strcmp($date, $tar) > 0) {
 }
 
 echo "5." . "<br>";
-echo "6." . "<br>";
-echo "7.The ASCII value of the first character in \$str: " . ord($str) . "<br>";
+echo "6. The length of \$str is: " . strlen($str) . "<br>";
+echo "7. The ASCII value of the first character in \$str: " . ord($str) . "<br>";
 
 
 
