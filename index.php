@@ -1,4 +1,5 @@
 <?php
+// comment
 $date =  date('Y-m-d', time());
 echo "The value of \$date: ".$date."<br>";
 
