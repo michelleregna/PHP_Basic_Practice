@@ -27,7 +27,7 @@ if (strcmp($date, $tar) > 0) {
 echo "5. The number of words in \$date is: " . str_word_count($date, 0) . "<br>";
 echo "6. The length of \$str is: " . strlen($str) . "<br>";
 echo "7. The ASCII value of the first character in \$str: " . ord($str) . "<br>";
-echo "8. "
+echo "8. The last two characters in \$date are: " . substr($date, -2) . "<br>";
 
 
 
