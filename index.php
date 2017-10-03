@@ -29,6 +29,10 @@ echo "6. The length of \$str is: " . strlen($str) . "<br>";
 echo "7. The ASCII value of the first character in \$str: " . ord($str) . "<br>";
 echo "8. The last two characters in \$date are: " . substr($date, -2) . "<br>";
 
+echo "9. \$date as an array: ";
+print_r(explode ("-", $date));
+echo "<br>";
+
 
 
 
