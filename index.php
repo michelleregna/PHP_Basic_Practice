@@ -24,6 +24,8 @@ if (strcmp($date, $tar) > 0) {
 	echo "Oops";
 }
 
+echo "4. The positions of '-': " . strpos($date, "-") . " " . strrpos($date, "-"). "<br>"; 
+
 echo "5. The number of words in \$date is: " . str_word_count($date, 0) . "<br>";
 echo "6. The length of \$str is: " . strlen($str) . "<br>";
 echo "7. The ASCII value of the first character in \$str: " . ord($str) . "<br>";
@@ -33,6 +35,7 @@ echo "9. \$date as an array: ";
 print_r(explode ("-", $date));
 echo "<br>";
 
+echo "10. "
 
 
 
