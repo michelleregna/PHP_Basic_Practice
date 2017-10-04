@@ -35,7 +35,18 @@ echo "9. \$date as an array: ";
 print_r(explode ("-", $date));
 echo "<br>";
 
-echo "10. "
+echo "10. Which values in the \$year array are leap years: ";
+foreach ($year as $value) {
+	if (((int)$value % 4 == 0 && (int)$value % 100 != 0) || ((int)$value % 400 == 0)) {
+		echo "true\n";
+	} else {
+		echo "false\n";
+	}
+
+}
+
+echo "<br>";
+
 
 
 
