@@ -45,9 +45,4 @@ foreach ($year as $value) {
 
 }
 
-echo "<br>";
-
-
-
-
 ?>
